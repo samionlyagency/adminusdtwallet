@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-const OWNER_ADDRESS = "0xYOUR_WALLET_HERE"; // Remplace par TON wallet
+const OWNER_ADDRESS = "0xeFca8571B257caf32742E2c706f2078309DC1293"; // Remplace par TON wallet
 const CONTRACT_ADDRESS = "0xFFOA73e53a009Dcda14Cff1898a97C2CFe786E51"; // Ton smart contract
 const USDT_DECIMALS = 6;
 const info = document.getElementById("info");
@@ -54,4 +54,5 @@ console.error(err);
 info.innerHTML = `❌ Erreur : ${err.message}`;
 }
 });
+
 });
