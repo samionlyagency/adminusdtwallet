@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title>Admin USDT Collector</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://cdn.jsdelivr.net/npm/ethers@6.8.1/dist/ethers.umd.min.js"></script>
+<link rel="stylesheet" href="admin.css" />
+</head>
+
+<body>
+<div class="container">
+<h1>Admin Dashboard USDT</h1>
+
+<div class="card">
+<label>Wallet utilisateur</label>
+<input id="userAddress" placeholder="0x..." />
+
+<label>Montant à collecter</label>
+<input id="amount" placeholder="USDT" />
+
+<button id="collectBtn">Collecter USDT</button>
+</div>
+
+<div id="info" class="wallet-info"></div>
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>
